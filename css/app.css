@@ -9,10 +9,6 @@ body {
     background-color: white;
 }
 
-.content {
-
-}
-
 .form-img {
     height: 100vh;
     width: 40%;
@@ -24,7 +20,6 @@ body {
 }
 
 form {
-    margin-top: 25px;
     width: 100%;
     height: 28vh;
 }
@@ -32,7 +27,10 @@ form {
 .form-heading {
     display: flex;
     flex-direction: column;
+}
 
+fieldset {
+    margin-top: 25px;
 }
 
 .form-footer {
@@ -53,7 +51,6 @@ form {
 fieldset legend {
     font-size: 25px;
     font-weight: 700;
-    margin-bottom: 25px;
     margin: 25px;
 }
 

@@ -17,7 +17,7 @@
                 <br>
                 <p class="emphasis">You <em>know</em> you want to!!!</p>
             </div>
-            <form action="#" method="POST">
+            <form id='signup-form' action="#" method="POST">
                 <fieldset>
                     <legend>Lets get signed up!!!</legend>
                     <div class="row">
@@ -43,19 +43,19 @@
                     <div class="row">
                         <div>
                             <label for="password">Password</label>
-                            <input type="password" name="password" id="password" size="30" required>
+                            <input type="password" name="password" id="password" size="30" pattern='(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}' required>
                         </div>
                         
                         <div class="col-2">
                             <label for="confirm_pass">Confirm Password</label>
-                            <input type="password" id="confirm_pass" size="30" required>
+                            <input type="password" id="confirm_pass" size="30" pattern='(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}' required>
                         </div>
                     </div>
                 </fieldset>
             </form>
             <div class="form-footer section">
                 <div class="footer_content">
-                    <button>Sign Up</button>
+                    <button type="submit" form="signup-form">Sign Up</button>
                     <p>Already a member? <a href='#'>Log in</a></p>
                 </div>
             </div>
