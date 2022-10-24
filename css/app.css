@@ -1,0 +1,94 @@
+body {
+    background-color: #EC750E;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    background-color: white;
+}
+
+.content {
+
+}
+
+.form-img {
+    height: 100vh;
+    width: 40%;
+}
+
+.section {
+    height: 36vh;
+    background-color: #e3f0fc;
+}
+
+form {
+    margin-top: 25px;
+    width: 100%;
+    height: 28vh;
+}
+
+.form-heading {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.form-footer {
+    padding: 25px;
+}
+
+
+.form-heading p {
+    font-size: 25px;
+    margin: 40px 25px;
+}
+
+.form-heading p:nth-of-type(2){
+    margin-top: 0px;
+}
+
+
+fieldset legend {
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    margin: 25px;
+}
+
+input, label {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    margin: 0 25px;
+}
+
+input {
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 13px;
+}
+
+.col-2 {
+    margin-left: 100px;
+}
+
+button {
+    background-color: #0e85ec;
+    color: white;
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 17px;
+}
+
+.form-footer p {
+    font-size: 17px;
+}

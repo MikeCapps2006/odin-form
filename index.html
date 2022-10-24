@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Practice</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <div class="container">
+        <img class='form-img' src="imgs/water.jpg" alt="">
+        <div class="content">
+            <div class="form-heading section">
+                <p>Do you want to own your own piece of heaven? Sign up today and we will show you how to make your wildest dreams come true....</p>
+                <br>
+                <p class="emphasis">You <em>know</em> you want to!!!</p>
+            </div>
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend>Lets get signed up!!!</legend>
+                    <div class="row">
+                        <div>
+                            <label for="first_name">First Name</label>
+                            <input type="text" placeholder='John' id="first_name" name="first_name" size="30" required>
+                        </div>
+                        <div class="col-2">
+                            <label for="last_name">Last Name</label>
+                            <input type="text" placeholder="Doe" id="last_name" name="last_name" size="30" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" placeholder='you@example.com' size="30" required>
+                        </div>
+                        <div class="col-2">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" name="telephone" id="telephone" placeholder='888-888-8888' size="30" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div>
+                            <label for="password">Password</label>
+                            <input type="password" name="password" id="password" size="30" required>
+                        </div>
+                        
+                        <div class="col-2">
+                            <label for="confirm_pass">Confirm Password</label>
+                            <input type="password" id="confirm_pass" size="30" required>
+                        </div>
+                    </div>
+                </fieldset>
+            </form>
+            <div class="form-footer section">
+                <div class="footer_content">
+                    <button>Sign Up</button>
+                    <p>Already a member? <a href='#'>Log in</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
